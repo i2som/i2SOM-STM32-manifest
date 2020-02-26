@@ -3,6 +3,7 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/STMicroelectronics" name="OpenSTLinux"/>
+  <remote fetch="https://github.com/i2som" name="i2SOM"/>
   
   <default remote="OpenSTLinux"/>
   
@@ -16,5 +17,6 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="fdaf22bdb1d832893be7b9dc74a4bba0a6ea5065"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="e1055b0af6c0d7e770ad0d50e18da84771896f11"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="f0394e80a37f1da47042a1aa0487594f390603f9"/>
+  <project name="meta-i2som-styocto" path="layers/meta-i2som-styocto" remote="i2SOM" revision="3eb95da9f7ef1cc07e0b25c69f1778057ca6f2b8"/>
 
 </manifest>
